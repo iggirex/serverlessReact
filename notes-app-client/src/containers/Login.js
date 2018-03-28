@@ -32,7 +32,8 @@ export default class Login extends Component {
 
         try {
             await Auth.signIn(this.state.email, this.state.password);
-            alert("Logged in");
+            alert(this.props.testing);
+            this.props.userHasAuthenticated(true);
         } catch (e) {
             alert(e.message);
         }
@@ -64,7 +65,7 @@ export default class Login extends Component {
                         block
                         bsSize="large"
                         disabled={!this.validateForm()}
-                        type="password"
+                        type="submit"
                     >
                         Login
                     </Button>
