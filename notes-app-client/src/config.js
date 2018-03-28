@@ -1,17 +1,17 @@
 export default {
     s3: {
-      REGION: "YOUR_S3_UPLOADS_BUCKET_REGION",
-      BUCKET: "YOUR_S3_UPLOADS_BUCKET_NAME"
+      REGION: "us-west-2",
+      BUCKET: "notes-app-upload-iggi"
     },
     apiGateway: {
-      REGION: "YOUR_API_GATEWAY_REGION",
-      URL: "YOUR_API_GATEWAY_URL"
+      REGION: "us-west-2",
+      URL: "https://3amdmgz6e9.execute-api.us-west-2.amazonaws.com/prod"
     },
     cognito: {
-      REGION: "YOUR_COGNITO_REGION",
-      USER_POOL_ID: "YOUR_COGNITO_USER_POOL_ID",
-      APP_CLIENT_ID: "YOUR_COGNITO_APP_CLIENT_ID",
-      IDENTITY_POOL_ID: "YOUR_IDENTITY_POOL_ID"
+      REGION: "us-west-2",
+      USER_POOL_ID: "us-west-2_PA18xFfUs",
+      APP_CLIENT_ID: "2m6g97emnkdfe5l6q17bl81nkj",
+      IDENTITY_POOL_ID: "us-west-2:c76e3971-ded9-400d-a843-bd95245642b9"
     }
 };
 
