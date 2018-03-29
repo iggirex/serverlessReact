@@ -65,7 +65,7 @@ functions:
     handler: list.main
     events:
       - http:
-          path: list/{id}
+          path: notes
           method: get
           cors: true
           authorizer: aws_iam
