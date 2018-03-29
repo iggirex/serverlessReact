@@ -26,7 +26,6 @@ export default class NewNote extends Component {
         this.setState({
             [event.target.id]: event.target.value
         });
-        console.log(this.state)
     }
 
     handleFileChange = event => {
